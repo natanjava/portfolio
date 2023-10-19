@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,40 +33,47 @@
 	
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
-			<div class="wrap-login100">
-				<form class="login100-form validate-form">
-					<span class="login100-form-logo">
+			<div class="wrap-login100" style="width: 500px;">
+				<form class="login100-form validate-form" >
+					<span class="login100-form-logo" style="margin-top: -6%">
 						<!--  <i class="zmdi zmdi-landscape"></i> -->
 						<img src="images/user2.jpg"  width="180" height="150" style="border-radius: 35% 20%;">
 					</span>
 
 					<span class="login100-form-title p-b-34 p-t-27">
-						<br>Natanael Bonfim <br> Java Web Developer
-					</span>
-					 
+						Natanael Bonfim <br/> Java Developer <br/> Model Projects
+					</span>		
+			       
 
-					
-
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn" onclick="window.open('https://natanproject1-60515bfba211.herokuapp.com/curso-jsp/','_blank')">
-							Project 1 : Simulating an User Mananagment System with JSP + Servlets 
+					<div class="container-login100-form-btn" style="margin-top: -5%">
+						<button class="login100-form-btn" onclick="window.open('http://www.natanaelbonfim.com/curso-jsp/','_blank')">
+							Project 1 : JSP + Servlets 
 						</button>
 					</div>
 					<br>
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							Project 2: JSF + Hibernate: building...
+						<button class="login100-form-btn" onclick="window.open('http://www.natanaelbonfim.com/JSF-intro/','_blank')">
+							Project 2: JSF + Hibernate + BootFaces
 						</button>
 					</div>
 					<br>
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							Project 3 ...
+						<button class="login100-form-btn" onclick="window.open('http://www.natanaelbonfim.com/pos-java-hibernate2/','_blank')">
+							Project 3: JSF + Hibernate + Primefaces
 						</button>
 					</div>
-					
-					
-
+					<br>
+					<div class="container-login100-form-btn" onclick="window.open('http://www.natanaelbonfim.com/springboot-thymeleaf/login','_blank')">
+						<button class="login100-form-btn">
+							Project 4: Spring BOOT + Thymeleaf
+						</button>
+					</div>
+					<br>
+					<div class="container-login100-form-btn" style="margin-bottom: -4%">
+						<button class="login100-form-btn" onclick="window.open('http://angular-spring-api.s3-website.eu-central-1.amazonaws.com/login','_blank')">
+							Project 5: RestFull API  <br> with Spring BOOT + Angular 8/9
+						</button>
+					</div>
 					
 				</form>
 			</div>
